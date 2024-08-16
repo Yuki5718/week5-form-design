@@ -1,0 +1,30 @@
+.list-group {
+    --bs-list-group-border-color: #{$gray-400};
+    --bs-list-group-active-color: none;
+    --bs-list-group-active-bg : #{$gray-100};
+    --bs-list-group-active-border-color: #{$gray-400};
+    --bs-list-group-item-padding-x: 0.75rem;
+    --bs-list-group-item-padding-y: 0.75rem;
+}
+
+.btn-download {
+    border: 1px solid #{$gray-400};
+}
+
+.box {
+    width: 1280px;
+    margin: 0 auto;
+}
+  
+.layout {
+    width: 984px;
+    margin-left: auto;
+}
+
+.layout-aside {
+    width: 320px;
+}
+
+.layout-content {
+    width: 584px;
+}

@@ -1,0 +1,47 @@
+.table {
+    &-group-divider th {
+        font-weight: normal;
+    }
+
+    &-lg > :not(caption) > * > * {
+        padding : 1rem 0 ;
+    }
+
+    &-header th {
+        padding-top: 0;
+        padding-bottom: .25rem;
+        border-bottom: 0;
+    }
+}
+
+
+.page-link {
+    width: 2rem;
+    height: 2rem;
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.active {
+        color: #{$white} !important ;
+        background-color: #{$success};
+        border-color: #{$success};
+    }
+}
+
+.pagination {
+    --bs-pagination-border-color: #{$success};
+    --bs-pagination-hover-border-color: #{$success};
+}
+
+.modal {
+    --bs-modal-width: 480px;
+    --bs-modal-border-radius: var(--bs-border-radius);
+}
+
+.Verification button {
+    color: #{$success};
+    &:disabled {
+        color: #{$secondary};
+    }
+}
